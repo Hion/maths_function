@@ -29,6 +29,13 @@ void multiply(int x, char op, int y)
         printf("%i\n", res);
 }
 
+void mod(int x, char op, int y)
+{
+        int res;
+        res = x % y;
+        printf("%i\n", res);
+}
+
 int main()
 {
         int x, y;
@@ -51,6 +58,8 @@ int main()
                case '/': divide(x,op,y);
                          break;
                case '*': multiply(x,op,y);
+                         break;
+               case '%': mod(x,op,y);
                          break;
                default:
                          break;
