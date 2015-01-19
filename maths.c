@@ -34,7 +34,7 @@ int main()
         int x, y;
         char op;
         
-        printf("Simple maths program\n");
+        printf("This is a Simple maths program\n");
         printf("Operations available: +, -, /, *\n");
         printf("Example: 2 + 3\n");
         
