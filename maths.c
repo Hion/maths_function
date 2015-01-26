@@ -42,7 +42,7 @@ int main()
         char op;
         
         printf("Simple maths program\n");
-        printf("Operations available: +, -, /, *\n");
+        printf("Operations available: +, -, /, *, %\n");
         printf("Example: 2 + 3\n");
         
         while(op != 'q') {
